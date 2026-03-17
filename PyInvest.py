@@ -33,3 +33,10 @@ montante_lci = (capital * math.pow((1+taxa_lci), meses))+(aporte * meses)
 #poupança
 taxa_poupanca = 0.005 
 montante_poupanca = (capital * math.pow ((1+taxa_poupanca), meses))+(aporte * meses)
+
+#FII
+fii1 = (capital * math.pow((1+taxa_fii), meses))+(aporte * meses)*(1+ r.uniform(-0.03, 0.03))
+fii2 = (capital * math.pow((1+taxa_fii), meses))+(aporte * meses)*(1+ r.uniform(-0.03, 0.03))
+fii3 = (capital * math.pow((1+taxa_fii), meses))+(aporte * meses)*(1+ r.uniform(-0.03, 0.03))
+fii4 = (capital * math.pow((1+taxa_fii), meses))+(aporte * meses)*(1+ r.uniform(-0.03, 0.03))
+fii5 = (capital * math.pow((1+taxa_fii), meses))+(aporte * meses)*(1+ r.uniform(-0.03, 0.03))
